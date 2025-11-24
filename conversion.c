@@ -10,9 +10,9 @@ int userScore = 423;
 
 /* Calculate the percantage of the user's score in relation to the maximum available score.
 Convert userScore to float to make sure that the division is accurate */
-float sum = (float) userScore / maxScore  * 100.0;
+float percentage = (float) userScore / maxScore  * 100.0;
 
 // Print the percentage
-printf("The user's percentage is %.2f", sum);
+printf("The user's percentage is %.2f", percentage);
 return 0;
 }
